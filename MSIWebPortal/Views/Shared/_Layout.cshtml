@@ -7,14 +7,14 @@
 
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
 
-    <link href="~/assets/css/nucleo-icons.css" rel="stylesheet" />
-    <link href="~/assets/css/nucleo-svg.css" rel="stylesheet" />
+    <link href="~/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="~/css/nucleo-svg.css" rel="stylesheet" />
 
     <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
 
-    <link id="pagestyle" href="~/assets/css/material-dashboard.css?v=3.1.0" rel="stylesheet" />
+    <link id="pagestyle" href="~/css/material-dashboard.css?v=3.1.0" rel="stylesheet" />
 </head>
 
 <body class="g-sidenav-show bg-gray-200">
@@ -41,10 +41,11 @@
         </div>
     </main>
 
-    <script src="~/assets/js/core/popper.min.js"></script>
-    <script src="~/assets/js/core/bootstrap.min.js"></script>
-    <script src="~/assets/js/plugins/perfect-scrollbar.min.js"></script>
-    <script src="~/assets/js/plugins/smooth-scrollbar.min.js"></script>
+    //Update path of CSS
+    <script src="~/js/core/popper.min.js"></script>
+    <script src="~/js/core/bootstrap.min.js"></script>
+    <script src="~/js/plugins/perfect-scrollbar.min.js"></script>
+    <script src="~/js/plugins/smooth-scrollbar.min.js"></script>
 
     <script>
         var win = navigator.platform.indexOf('Win') > -1;
@@ -54,7 +55,7 @@
         }
     </script>
 
-    <script src="~/assets/js/material-dashboard.min.js?v=3.1.0"></script>
+    <script src="~/js/material-dashboard.min.js?v=3.1.0"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
